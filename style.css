@@ -1,0 +1,554 @@
+html {
+    display: block;
+}
+
+body {
+	background-color: #151414;
+
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-self: center;
+	flex-wrap: wrap;
+	padding: 0px;
+	height: 100vh;
+	max-width: 100%;
+	display: block;
+}
+
+.nyblock {
+	margin-top: 140px;
+}
+
+.centered {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	display: block;
+	justify-content: center;
+}
+
+.navbar-toggler{
+    width:60px;
+    height:42px;
+    border-radius:0px;
+    border:none;
+	}
+
+.navbar-brand,
+.navbar {
+	position: absolute;
+	top: 3px;
+	left: 100px;
+	color: white;
+}
+
+.name {
+	color: white;
+	font-size: 70px;
+	font-family: 'Fira Sans', sans-serif;
+	margin: 0;
+	text-align: center;
+}
+
+.carousel-caption {
+	color: white;
+	font-size: 70px;
+	font-family: 'Fira Sans', sans-serif;
+	text-align: center;
+	position: relative;
+	bottom: 50px;
+	right: 0;
+	left: 0;
+}
+
+.address {
+	color: white;
+	font-size: 25px;
+	font-family: 'Fira Sans', sans-serif;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 40px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+
+.nav-link {
+	color: white;
+	font-size: 30px;
+}
+
+.nav-link:hover {
+	color: #452102;
+}
+
+.contacts, .contactsRes {
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 30px;
+	justify-content: end;
+}
+
+.contacts:hover,
+.contactsRes:hover,
+a:hover{
+	color: #452102;
+}
+
+.scroll{
+	position: relative;
+	filter: invert(1);
+	bottom: 160px;
+	right: 0;
+	left: 0;
+	text-align: center;
+}
+
+.icon {
+  	filter: invert(1);
+    margin-bottom:10px;
+}
+
+.image{
+  position:relative;
+}
+.menu {
+	position: absolute;
+  bottom: 300px;
+	right: 0;
+	left: 0;
+  bottom: 150px;
+	text-align: center;
+	font-size: 40px;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+hr {
+	top: 60px;
+	border: 1px solid white;
+	width: 100%;
+	text-align: center;
+}
+
+img {
+	filter: brightness(50%)
+}
+
+.font,
+.offcanvas {
+	font-family: 'Fira Sans', sans-serif;
+}
+
+input,
+label,
+.text-input {
+	display: flex;
+	flex-direction: column;
+	font-family: 'Fira Sans', sans-serif;
+	text-align: center;
+}
+
+.reservation {
+	position: absolute;
+	background-color: white;
+	top: 100px;
+	left: 400px;
+	padding: 30px;
+}
+
+.send {
+	display: flex;
+	justify-content: center;
+}
+
+.btn {
+	background-color: #452102;
+	color: white;
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.dish {
+	position: relative;
+	bottom: 50px;
+	right: 10px;
+	color: white;
+	font-size: 20px;
+  opacity:0;
+  transition: 2s; 
+	font-family: 'Fira Sans', sans-serif;
+}
+
+.dish:hover{
+  opacity:1;
+}
+
+.img-thumbnail{
+  display: inline-block; 
+  overflow: hidden; 
+}
+
+.img-thumbnail img{
+  transition: 2s; 
+  display: block; 
+}
+
+.img-thumbnail img:hover{
+  transform: scale(1.3);
+  opacity:1;
+}
+
+.containerMenu{
+	padding-top: 60px;
+  width: 60%;
+  height:1000px;
+}
+
+.col {
+	float: left;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+}
+
+
+#particles-js {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+}
+
+.carousel{
+  display:none;
+}
+
+.oysters_mob, .home_mob{
+  display:none;
+}
+
+.oysters, .home{
+  display:block;
+}
+
+.imageNY_mob{
+  display:none;
+}
+
+.imageNY{
+  display:block;
+}
+
+@media all and (max-width:1024px) {
+  
+  .oysters, .home{
+    display:none;
+  }
+  
+  .oysters_mob, .home_mob {
+    display:block;
+	}
+
+	h2{
+		font-size: 36px;
+		margin-top: 5px;
+	}
+
+  .contactsRes{
+    font-size: 20px;
+  }
+
+.navbar-toggler{
+    height:50px;
+    margin-bottom:10px;
+	}
+
+	.navbar {
+		top: 13px;
+		left: 10px;
+	}
+
+  .name {
+    font-size:70px;
+  }
+
+  .about{
+    font-size: 60px;
+  }
+	.menu {
+		bottom: 200px;
+		font-size: 40px;
+	}
+
+	.contacts {
+		font-size: 0px;
+	}
+
+	hr {
+		margin-top: 0;
+	}
+
+	.reservation {
+		top: 240px;
+		left: 130px;
+		padding: 10px;
+		width: 75%;
+	}
+
+  
+	.text {
+		font-size: 18px;
+	}
+
+	.block {
+		width: 90%;
+	}
+
+  .scroll{
+    bottom:400px;
+  }
+ 
+  .containerMenu{
+    display:none;
+  }
+  
+  .carousel{
+  display:block;
+}
+  
+  
+.food{
+	position: relative;
+	bottom: 100px;
+  left: 100px;
+	color: white;
+	font-size: 20px;
+	font-family: 'Fira Sans', sans-serif;
+}
+  
+  .time, .date{
+    width:740px;
+  
+}
+}
+
+@media all and (max-width:800px) {
+  
+
+  .oysters, .home{
+    display:none;
+  }
+  
+  .oysters_mob, .home_mob {
+    display:block;
+   
+	}
+
+	h2
+  {
+		font-size: 36px;
+		margin-top: 5px;
+	}
+
+  .contactsRes{
+    font-size: 20px;
+  }
+
+.navbar-toggler{
+    height:50px;
+    margin-bottom:10px;
+	}
+
+	.navbar {
+		top: 13px;
+		left: 10px;
+	}
+
+  .name {
+    font-size:70px;
+  }
+
+  .about{
+    font-size: 60px;
+  }
+	.menu {
+		bottom: 200px;
+		font-size: 40px;
+	}
+
+	.contacts {
+		font-size: 0px;
+	}
+
+	hr {
+		margin-top: 0;
+	}
+
+	.reservation {
+		top: 240px;
+		left: 130px;
+		padding: 10px;
+		width: 75%;
+	}
+
+	.imageNY_mob {
+		width: 500px;
+    height:540px;
+	}
+
+	.text {
+		font-size: 18px;
+	}
+
+	.block {
+		width: 90%;
+	}
+
+  .scroll{
+    bottom:400px;
+  }
+ 
+  .conteinerMenu{
+    display:none;
+  }
+  
+  .carousel{
+  display:block;
+}
+  
+.food{
+	position: relative;
+	bottom: 100px;
+  left: 100px;
+	color: white;
+	font-size: 20px;
+	font-family: 'Fira Sans', sans-serif;
+}
+  
+  .time, .date{
+    width:740px;
+  
+}
+   
+ #particles-js {
+	height: 250%;
+}
+}
+
+@media all and (max-width:500px) {
+
+  .oysters, .home, .imageNY{
+    display:none;
+  }
+  
+  .oysters_mob, .home_mob, .imageNY_mob {
+    display:block;
+    height:700px;
+	}
+
+	h2,
+	.address {
+		font-size: 23px;
+		margin-top: 8px;
+	}
+
+	button {
+		margin-bottom: 20px;
+	}
+
+	.navbar {
+		top: 13px;
+		left: 10px;
+	}
+
+	.nav-link {
+		font-size: 25px;
+	}
+
+	.menu {
+		bottom: 50px;
+		font-size: 30px;
+	}
+
+	.contacts, .contactsRes {
+		font-size: 0px;
+	}
+
+	hr {
+		margin-top: 0;
+	}
+
+	.name,
+	.carousel-caption {
+		font-size: 40px;
+	}
+
+	.reservation {
+		top: 140px;
+		left: 50px;
+		padding: 10px;
+		width: 75%;
+	}
+
+	.imageNY_mob {
+		width: 100%;
+    height:50%;
+	}
+
+	.text, h5 {
+		font-size: 16px;
+	}
+
+	.block {
+		width: 90%;
+	}
+
+  .scroll{
+    bottom:140px;
+  }
+ 
+  .containerMenu{
+    display:none;
+  }
+  
+  .container {
+	height: 100%;
+}
+  
+  .carousel{
+  display:block;
+}
+   
+.food{
+	position: relative;
+	bottom: 100px;
+  left: 100px;
+	color: white;
+	font-size: 20px;
+	font-family: 'Fira Sans', sans-serif;
+}
+  
+  .time, .date{
+    width:260px;
+    background-color:white;
+    border: 1px solid grey; 
+}
+  
+ #particles-js {
+	height: 250%;
+}
+}
