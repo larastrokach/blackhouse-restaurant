@@ -1,6 +1,6 @@
 # blackhouse-restaurant
 
-Blakhouse-restaurant is a website of the restaurant "Black-House".
+This is a website of the restaurant "Black-House".
 
 ## Features
 * 
