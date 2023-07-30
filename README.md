@@ -11,12 +11,10 @@ This is a website of the restaurant "Black-House" built  with HTML,CSS, Bootstra
 
 ## Demo
 
-You can view the live demo of the website [here](https://example.com/restaurant-website-demo).
-
-## Getting Started
+You can view the live demo of the website [here]( https://larastrokach.github.io/Restaurant/).
 
 
 ## Instalation
-1. Clone thr repository: git clone [https://github.com/larastrokach/blackhouse-restaurant.git]
+1. Clone the repository: git clone [https://github.com/larastrokach/blackhouse-restaurant.git]
 2. Navigate to the project directory: cd blakhouse-restaurant
 3. Open the index.html file in a web browser to view the website
